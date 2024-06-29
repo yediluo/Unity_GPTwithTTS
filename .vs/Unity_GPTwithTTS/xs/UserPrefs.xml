@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{6E21F7B0-03CE-CA7C-1DFC-D38C8C90B0DE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GPTManager.cs">
+    <Files>
+      <File FileName="Assets/TTS.cs" Line="40" Column="6" />
+      <File FileName="Assets/SpeechRequest.cs" Line="12" Column="2" />
+      <File FileName="Assets/Scripts/GPTManager.cs" Line="88" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unity_GPTwithTTS" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GPTManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e75d0a61-e268-4dc3-8779-1c54debaa83b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
