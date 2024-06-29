@@ -12,6 +12,7 @@ using OpenAI;
 
 public class GPTManager : MonoBehaviour
 {
+    private string apiKey = "";
     private OpenAIApi openAI = new OpenAIApi();
     private List<ChatMessage> messages = new List<ChatMessage>();
     public TMP_Text outputText; //
@@ -24,7 +25,8 @@ public class GPTManager : MonoBehaviour
     {
         // Assuming the OpenAIApi class has a constructor or method that accepts an API key.
         // Please replace "sk-123" with your actual API key.
-        openAI = new OpenAIApi();
+      
+        openAI = new OpenAIApi(apiKey);
     }
 
 
