@@ -2,23 +2,16 @@
 
 ## Overview
 
-This Unity project demonstrates how to convert text into speech in real time using OpenAI's TTS (Text-to-Speech) API. The script included avoids saving the audio to a file and instead plays the speech directly through an `AudioSource` component in Unity. This approach is ideal for applications that require immediate playback and do not need to store the audio data.
+This Unity project demonstrates how to convert text into speech in real time using OpenAI's TTS (Text-to-Speech) API. The script avoids saving the audio to a file and instead plays the speech directly through an `AudioSource` component in Unity. This approach is ideal for applications that require immediate playback and do not need to store the audio data.
 
 ## Prerequisites
 
-- Unity Editor (2019.4 or later recommended).
+- Unity Editor (our version is 2022.3.17f1)
 - An active internet connection to access the OpenAI API.
 - An API key from OpenAI.
 
 ## Setup
-
-1. **OpenAI API Key**: You will need an API key from OpenAI to use their TTS service. Replace the `apiKey` variable in the script with your actual API key.
-
-2. **Unity Project Setup**:
-    - Create a new Unity project or open an existing one.
-    - Import the script into your project.
-    - Create an empty GameObject in your scene and attach the script to it.
-    - Create an `AudioSource` component on the same GameObject or another GameObject in the scene. Assign this `AudioSource` to the `audioSource` field of the script through the Unity Inspector.
+**OpenAI API Key**: You will need an API key from OpenAI to use their TTS service. Replace the `apiKey` variable in the TTS.cs and GPTManager.cs with your actual API key.
 
 ## Usage
 
